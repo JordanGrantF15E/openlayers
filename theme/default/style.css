@@ -430,6 +430,41 @@ span.olGoogleAttribution.hybrid a, span.olGoogleAttribution.satellite a {
     background-position: -26px -24px;
 }
 
+.olControlEditingToolbar .olControlModifyFeatureItemActive {
+    background-image: url("img/move_feature_on.png");
+    background-repeat: no-repeat;
+    margin: 0 0 5px 5px;
+    width: 24px;
+    height: 22px;
+    cursor: pointer
+}
+
+.olControlEditingToolbar .olControlModifyFeatureItemInactive {
+    background-image: url("img/move_feature_off.png");
+    background-repeat: no-repeat;
+    margin: 0 0 5px 5px;
+    width: 24px;
+    height: 22px;
+    cursor: pointer
+}
+
+.olControlEditingToolbar .olControlMeasuringStickItemActive {
+    background-image: url("img/measuring-stick-on.png");
+    background-repeat: no-repeat;
+    margin: 0 0 5px 5px;
+    width: 28px;
+    height: 28px;
+    cursor: pointer
+}
+
+.olControlEditingToolbar .olControlMeasuringStickItemInactive {
+    background-image: url("img/measuring-stick-off.png");
+    background-repeat: no-repeat;
+    margin: 0 0 5px 5px;
+    width: 28px;
+    height: 28px;
+    cursor: pointer
+}
 div.olControlZoom {
     position: absolute;
     top: 8px;
